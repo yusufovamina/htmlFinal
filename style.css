@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:focus {
+    color: #000000;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('font/Poppins-Medium.ttf');
+}
+
+body {
+    background-color: #FFFAF5;
+    font-family: Poppins;
+}
+
+
+header {
+    padding: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div a {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #42766C;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    width: Hug (89px)px;
+    height: Fixed (104px)px;
+    padding: 40px 20px 40px 20px;
+}
+
+header nav ul button {
+    margin-left: 28px;
+    width: Fixed (124px)px;
+    height: Hug (44px)px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    background-color: #F87661;
+    border: 0px;
+
+    color: white;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+
+}
+
+header nav ul button:hover {
+    cursor: pointer;
+}
+
+
+
+main section.section-one {
+    padding: 38px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section.section-one .intro-section h1 {
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+main section.section-one .intro-section p {
+    width: 454px;
+    height: Hug (68px)px;
+    padding: 10px 0px;
+    gap: 10px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #828282;
+}
+
+main section.section-one .intro-section button {
+    width: Fixed (124px)px;
+    height: Hug (44px)px;
+    padding: 12px 16px;
+    gap: 4px;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 24px;
+    background-color: #F87661;
+    border: 0;
+    color: white;
+}
+
+main section.section-one .intro-section button:hover {
+    cursor: pointer;
+
+}
+
+main section.section-one .ovals {
+    width: 519px;
+    height: 446px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section.section-one .ovals .first-oval{
+    width: 194px;
+    height: 310px;
+    background-color: #F87661;
+    border-radius: 150px;
+    opacity: 30%;
+}
+
+main section.section-one .ovals .second-oval {
+    width: 279px;
+    opacity: 30%;
+    height: 446px;
+    border-radius: 150px;
+    background-color: #F87661;
+}
+
+
+main section.section-two {
+    padding: 64px 0;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+main section.section-two .background .card {
+    width: 1080px;
+    height: 196px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 20px 40px #e78d7f;
+    background-image: url('Union.png');
+
+}
+
+main section.section-two .background {
+    background-image: linear-gradient(#FF9685, #F87661);
+    border-radius: 14px;
+
+}
+
+
+main section.section-two .background .card ul li h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+main section.section-two .background .card ul {
+    padding: 0 40px;
+    width: 494px;
+    display: flex;
+    gap: 44px;
+}
+main section.section-two .background .card ul li p {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: white;
+}
+
+main section.section-two .background .card .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+
+main section.section-two .background .card .info .fig {
+    background-color: #FEE4DF;
+    width: 1px;
+    height: 74px;
+}
+
+main section.section-two .background .card .info .circle {
+    width: 86px;
+    height: 90px;
+    background-color: #FEE4DF;
+    border-radius: 50%;
+}
+
+main section.section-two .background .card .info .text {
+    width: 320px;
+    padding: 61px 0px;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+main section.section-two .background .card .info .text h2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+main section.section-two .background .card .info .text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+main section.section-three {
+    padding: 0px 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main section.section-three .text {
+    margin-top: 64px;
+    text-align: center;
+
+}
+
+main section.section-three .text h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+main section.section-three .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+main section.section-three ul {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    gap: 38px;
+    justify-content: center;
+}
+
+main section.section-three ul li .card-1,
+.card-2 {
+    border-radius: 30px;
+    width: 480px;
+    height: 262px;
+}
+
+main section.section-three ul li .card-1 {
+    background-color: #FEE4DF;
+    color: black;
+}
+
+main section.section-three ul li .card-2 {
+    background: linear-gradient(180deg, #FF9685 0%, #F87661 100%);
+    color: white;
+    box-shadow: 0px 20px 40px #e78d7f;
+
+}
+
+main section.section-three ul li .info .text1 {
+    margin-left: 26px;
+    margin-top: 61px;
+}
+
+main section.section-three ul li .info {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+
+main section.section-three ul li div .info .text1 button {
+    width: Hug (81px)px;
+    height: Hug (44px)px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    background-color: #CF6251;
+    border: 0;
+    color: white;
+    margin-top: 14px;
+}
+
+main section.section-three ul li .info .icon {
+    margin-top: 46px;
+    width: 150px;
+    height: 90px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+
+main section.section-three ul li div .info .text1 h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+main section.section-three ul li div .info .text1 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 14px;
+}
+
+
+
+main section.section-three ul li div .info .text1 button:hover {
+    cursor: pointer;
+}
+
+
+main section.section-four {
+    padding: 0px 180px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 128px;
+    width: fit-content;
+}
+
+main section.section-four .total {
+    padding: 64px 0px;
+    width: 1080px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #FEE4DF;
+    border-bottom: 3px solid #FEE4DF;
+}
+
+main section.section-four .total ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main section.section-four .total ul li .text {
+    margin-left: 103px;
+}
+
+main section.section-four .total ul li .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+main section.section-four .total ul li .oval {
+    background-color: #FFCA0F;
+    width: 165px;
+    height: 123px;
+    border-radius: 100px;
+}
+
+
+
+main section.section-four .total ul li .text h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+}
+
+main section.section-four .total ul li .circles {
+    position: relative;
+    width: 196px;
+    height: 125px;
+    margin-left: 76px;
+}
+
+main section.section-four .total ul li div.circles .circle1 {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    border: #FFFFFF solid 3px;
+    border-radius: 50%;
+    background-color: #D9E4E2;
+}
+
+main section.section-four .total ul li div.circles .circle2 {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: #FFFFFF solid 3px;
+    background-color: #D9E4E2;
+    z-index: 99;
+    margin-left: 50px;
+}
+
+
+main section.section-five {
+    padding: 0px 180px;
+    margin: 0 auto;
+    margin-top: 128px;
+    width: fit-content;
+}
+
+main section.section-five .background {
+    width: 1080px;
+    height: 534px;
+    display: flex;
+    align-items: center;
+    padding: 44px 94px;
+    border-radius: 50px;
+    background-color: #D9E4E2;
+}
+
+main section.section-five .background .text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+}
+
+main section.section-five .background .text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #828282;
+    margin-top: 10px;
+    width: 517px;
+}
+
+main section.section-five .background .text{
+    align-items: center;
+}
+
+main section.section-five .background .text ul  {
+    margin-top: 18px;
+}
+main section.section-five .background .text ul li  {
+    margin-top: 18px;
+}
+
+main section.section-five .background .text .check-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+main section.section-five .background .text ul li p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+
+
+main section.section-five .background .oval {
+    width: 279px;
+    height: 446px;
+    background-color: #F87661;
+    border-radius: 130px;
+    opacity: 30%;
+}
+
+main section.section-five .background .figure {
+    margin-left: 96px;
+}
+
+main section.section-six {
+    margin-top: 107px;
+    background-image: linear-gradient(180deg, #5D9388 0%, #42766C 100%);
+}
+
+main section.section-six .background {
+    background-image: url('GreenUnion.png');
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section.section-six .background .info {
+    padding: 91px 0px 91px 186px;
+    text-align: left;
+}
+
+main section.section-six .background .info h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: white;
+}
+main section.section-six .background .info button {
+    color: #FFFFFF;
+    background-color: #F87661;
+    margin-top: 24px;
+    width: Fixed (124px)px;
+    height: Hug (44px)px;
+    padding: 12px 16px;
+    gap: 4px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+main section.section-six .background .info p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 24px;
+}
+
+main section.section-six .background .info button:hover {
+    background-color: #D7BFB8;
+    color: black;
+}
+
+
+main section.section-seven {
+    padding: 121px 180px;
+    margin: 0 auto;
+}
+
+main section.section-seven h1 {
+    margin-top: 45px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    color: #333333;
+}
+
+main section.section-seven p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #828282;
+}
+
+main section.section-seven ul {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+
+main section.section-seven ul li h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 18px;
+    color: #5A5A5A;
+}
+
+main section.section-seven ul li .card {
+    width: 336px;
+    height: 261px;
+    background-color: #D7BFB8;
+    border-radius: 30px;
+}
+main section.section-seven ul li p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 20px;
+    color: #5A5A5A;
+    margin-top: 8px;
+}
+
+main section.section-seven ul li button {
+    width: Hug (107px)px;
+    height: Hug (44px)px;
+    gap: 4px;
+    border-radius: 6px;
+    background-color: #CF6251;
+    color: white;
+    margin-top: 18px;
+    border: 0;
+    transition: 0.5s;
+    padding: 12px 16px;
+}
+main section.section-seven ul li button:hover {
+    background-color: #D7BFB8;
+    color: black;
+}
+
+footer {
+    padding: 64px 180px;
+
+}
+
+footer .all {
+    border-top: 1px #FEE4DF solid;
+}
+
+
+footer .all ul li .logo {
+    display: flex;
+    align-items: center;
+}
+footer .all ul {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .all ul li .logo a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #42766C;
+}
+
+footer .all ul li p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #5A5A5A;
+    margin-top: 45px;
+}
+
+footer .all ul li .seti {
+    margin-top: 24px;
+    justify-content: start;
+    gap: 38px;
+}
+footer .all ul li .seti li:hover{
+    cursor: pointer;
+}
+
+footer .all ul li h2 {
+    width: Hug (100px)px;
+    height: Fixed (104px)px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #5A5A5A;
+}
+
+footer .all ul li p {
+    width: Hug (88px)px;
+    height: Fixed (49px)px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
